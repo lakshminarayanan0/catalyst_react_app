@@ -1,0 +1,49 @@
+.product-list-container {
+  height: 400px; /* Default height */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+@media (max-width: 768px) {
+  .product-list-container {
+      height: 300px; /* Adjust height for smaller devices */
+  }
+}
+
+@media (max-width: 576px) {
+  .product-list-container {
+      height: 200px; /* Adjust height for even smaller devices */
+  }
+}
+
+/* ProductList.css */
+
+.product-list-container {
+  height: 80vh;
+  overflow-y: auto;
+  display: flex;
+  align-items: start;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  height:3px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the track */
+}
+
+::-webkit-scrollbar-thumb{
+  background: #888; /* Color of the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the thumb on hover */
+}
+

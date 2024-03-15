@@ -1,0 +1,20 @@
+{
+  "functions": {
+    "targets": [
+      "delete-product",
+      "edit-product",
+      "fetch-products",
+      "add-product",
+      "getuser-by-user-id",
+      "update-order-status",
+      "place-order",
+      "fetch-orders"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "client": {
+    "source": "react-app",
+    "plugin": "zcatalyst-cli-plugin-react"
+  }
+}
